@@ -11,6 +11,9 @@
 		629CC50B2B44DFA70071D78E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629CC50A2B44DFA70071D78E /* ContentView.swift */; };
 		629CC50D2B44DFAA0071D78E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 629CC50C2B44DFAA0071D78E /* Assets.xcassets */; };
 		629CC5102B44DFAA0071D78E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 629CC50F2B44DFAA0071D78E /* Preview Assets.xcassets */; };
+		629CC5172B44DFE60071D78E /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629CC5162B44DFE60071D78E /* Meal.swift */; };
+		629CC51B2B44E0250071D78E /* MealService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629CC51A2B44E0250071D78E /* MealService.swift */; };
+		629CC51D2B44E03E0071D78E /* MealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629CC51C2B44E03E0071D78E /* MealDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		629CC50A2B44DFA70071D78E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		629CC50C2B44DFAA0071D78E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		629CC50F2B44DFAA0071D78E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		629CC5162B44DFE60071D78E /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		629CC51A2B44E0250071D78E /* MealService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealService.swift; sourceTree = "<group>"; };
+		629CC51C2B44E03E0071D78E /* MealDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,9 @@
 			isa = PBXGroup;
 			children = (
 				629CC5082B44DFA70071D78E /* DessertAppApp.swift */,
+				629CC5162B44DFE60071D78E /* Meal.swift */,
+				629CC51C2B44E03E0071D78E /* MealDetailView.swift */,
+				629CC51A2B44E0250071D78E /* MealService.swift */,
 				629CC50A2B44DFA70071D78E /* ContentView.swift */,
 				629CC50C2B44DFAA0071D78E /* Assets.xcassets */,
 				629CC50E2B44DFAA0071D78E /* Preview Content */,
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				629CC51B2B44E0250071D78E /* MealService.swift in Sources */,
 				629CC50B2B44DFA70071D78E /* ContentView.swift in Sources */,
+				629CC5172B44DFE60071D78E /* Meal.swift in Sources */,
+				629CC51D2B44E03E0071D78E /* MealDetailView.swift in Sources */,
 				629CC5092B44DFA70071D78E /* DessertAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
